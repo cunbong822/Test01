@@ -23,7 +23,7 @@ driver.get("http://demo.guru99.com/v4/");
  
 @Test
 public void TC_01_ValidateCurrentUrl() {
-// Login Page Url matching
+// Login Page Url matching UTC
 String loginPageUrl = driver.getCurrentUrl();
 Assert.assertEquals(loginPageUrl, "http://demo.guru99.com/v4/");
 }
